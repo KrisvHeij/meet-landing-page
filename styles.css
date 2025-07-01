@@ -106,8 +106,20 @@ body {
 
 .hero-content {
   margin-block-start: var(--spacing-600);
+  padding-inline: var(--spacing-400);
   text-align: center;
 }
+
+.hero-header,
+.hero-text {
+  margin-block-end: var(--spacing-300);
+}
+
+.hero-header {
+  text-wrap: balance;
+}
+
+/* Buttons */
 
 /* Hidden for smaller screen sizes */
 .hero-img-right {
