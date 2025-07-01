@@ -8,12 +8,14 @@
   --slate-600: hsl(240, 10%, 57%);
   --slate-300: hsl(240, 18%, 85%);
   --white: hsl(0, 0%, 98%);
+  /* 1rem = 16px / 2rem = 32px / 3rem = 48px / 4rem = 64px */
   --spacing-50: 0.25rem;
   --spacing-100: 0.5rem;
-  --spacing-200: 1rem;
+  --spacing-200: 1rem; 
   --spacing-300: 1.5rem;
   --spacing-400: 2rem;
   --spacing-500: 2.5rem;
+  --spacing-600: 3rem;
   --spacing-700: 3.5rem;
   --spacing-800: 4rem;
   --spacing-900: 4.5rem;
@@ -74,3 +76,22 @@ a {
   font-weight: var(--fw-700);
   line-height: 1.5;
 }
+
+/* Page styling */
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--white);
+}
+
+/* Header */
+.header {
+  padding-block-start: var(--spacing-600);
+  padding-inline: var(--spacing-1000);
+}
+
+.header-logo {
+  margin-inline: auto;
+}
+
+/* Hero Section */
+

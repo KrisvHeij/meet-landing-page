@@ -19,37 +19,40 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Frontend Mentor | Meet landing page</title>
   </head>
+
   <body>
-    <header class="hero">
-      <div class="hero-logo">
-        <img src="./assets/logo.svg" alt="Meet logo" />
-      </div>
-      <div class="hero-img-left">
-        <picture>
-          <source
-            media="(min-width: 62rem)"
-            srcset="./assets/desktop/image-hero-left.png"
-          />
-          <img src="./assets/tablet/image-hero.png" alt="" />
-        </picture>
-      </div>
-      <div class="hero-content">
-        <h1 class="hero-header">Group Chat For Everyone</h1>
-        <p class="hero-text">
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
-        <div class="hero-links">
-          <a href="#" download="#">Download v1.3</a>
-          <a href="#">What is it?</a>
-        </div>
-      </div>
-      <div class="hero-img-right">
-        <img src="./assets/desktop/image-hero-right.png" alt="" />
-      </div>
+    <header class="header">
+      <img class="header-logo" src="./assets/logo.svg" alt="Meet logo" />
     </header>
+
     <main class="main">
-      <section class="wrapper">
+      <section class="hero">
+        <div class="hero-img-left">
+          <picture>
+            <source
+              media="(min-width: 62rem)"
+              srcset="./assets/desktop/image-hero-left.png"
+            />
+            <img src="./assets/tablet/image-hero.png" alt="" />
+          </picture>
+        </div>
+        <div class="hero-content">
+          <h1 class="hero-header">Group Chat For Everyone</h1>
+          <p class="hero-text">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="hero-links">
+            <a href="#" download="#">Download v1.3</a>
+            <a href="#">What is it?</a>
+          </div>
+        </div>
+        <div class="hero-img-right">
+          <img src="./assets/desktop/image-hero-right.png" alt="" />
+        </div>
+      </section>
+
+      <section class="showcase">
         <div class="section-number">
           <span>01</span>
         </div>
@@ -70,6 +73,7 @@
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="section-number">
         <span>02</span>
