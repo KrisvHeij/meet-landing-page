@@ -139,11 +139,11 @@ body {
 }
 
 .hero-img-left {
-  transform: scaleX(1.15);
+  transform: scale(1.15);
 }
 
 .hero-content {
-  margin-block-start: var(--spacing-600);
+  margin-block-start: var(--spacing-800);
   padding-inline: var(--spacing-400);
   text-align: center;
 }
