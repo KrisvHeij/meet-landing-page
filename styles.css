@@ -188,6 +188,26 @@ body {
   background-color: var(--slate-300);
 }
 
-.section-images {
+.section-img-container {
   margin-block: var(--spacing-800);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-200);
+}
+
+.section-img {
+  border-radius: 10px;
+}
+
+.section-main {
+  text-align: center;
+}
+
+.section-sub-header {
+  color: var(--cyan-600);
+  text-transform: uppercase;
+}
+
+.section-header {
+  color: var(--slate-900);
 }
