@@ -45,6 +45,12 @@ a {
   cursor: pointer;
 }
 
+/* Page styling */
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--white);
+}
+
 /* Typography classes */
 .text-preset-1 {
   font-size: clamp(2.5rem, 1.9718rem + 2.2535vw, 4rem);
@@ -70,6 +76,7 @@ a {
   font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
   font-weight: var(--fw-400);
   line-height: 1.1;
+  color: var(--slate-600);
 }
 
 .text-preset-5 {
@@ -78,10 +85,40 @@ a {
   line-height: 1.5;
 }
 
-/* Page styling */
-body {
-  font-family: "Red Hat Display", sans-serif;
-  background-color: var(--white);
+/* Button classes */
+.btn {
+  padding-block: var(--spacing-200);
+  padding-inline: var(--spacing-500);
+  color: var(--white);
+  border-radius: 1.8125rem;
+  transition: background-color 250ms ease;
+}
+
+.btn-blue {
+  background-color: var(--cyan-600);
+  margin-block-end: var(--spacing-200);
+}
+
+.btn-blue-subtext {
+  margin-inline-start: var(--spacing-50);
+  color: var(--cyan-300);
+}
+
+.btn-blue:hover {
+  background-color: #71C0D4;
+}
+
+.btn-purple {
+  background-color: var(--purple-600);
+}
+
+.btn-purple:hover {
+  background-color: #B18BDD;
+}
+
+.btn-purple-subtext {
+  margin-inline-start: var(--spacing-50);
+  color: var(--purple-300);
 }
 
 /* Header */
@@ -98,6 +135,7 @@ body {
 .hero {
   padding-block-start: var(--spacing-800);
   padding-block-end:  var(--spacing-400);
+  overflow: clip;
 }
 
 .hero-img-left {
@@ -119,9 +157,37 @@ body {
   text-wrap: balance;
 }
 
-/* Buttons */
-
 /* Hidden for smaller screen sizes */
 .hero-img-right {
   display: none;
+}
+
+/* Showcase */
+.showcase {
+  padding-block-start: var(--spacing-400);
+  padding-block-end: var(--spacing-800);
+  padding-inline: var(--spacing-400);
+}
+
+.section-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  border: 0.0625rem solid var(--slate-300);
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  color: var(--slate-600);
+}
+
+.section-number-line {
+  margin-inline: auto;
+  width: 0.0625rem;
+  height: 5rem;
+  background-color: var(--slate-300);
+}
+
+.section-images {
+  margin-block: var(--spacing-800);
 }
