@@ -97,6 +97,7 @@ body {
 .btn-blue {
   background-color: var(--cyan-600);
   margin-block-end: var(--spacing-200);
+  margin-inline-end: var(--spacing-200);
 }
 
 .btn-blue-subtext {
