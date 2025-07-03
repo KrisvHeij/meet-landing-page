@@ -276,8 +276,56 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: var(--spacing-300);
   }
+}
 
-  .section-main {
-    
+/* Media query > 992px/62rem */
+@media (min-width: 62rem) {
+  .hero {
+    display: flex;
+    align-items: center;
+    padding-block-start: 0;
+  }
+
+
+
+
+  /* Finish widths of hero images to match the design */
+  .hero-img-left {
+    max-width: 450px;
+  }
+
+  .hero-img-right {
+    display: block;
+  }
+
+  /* Showcase */
+  .showcase {
+    max-width: 70rem;
+    margin-inline: auto;
+    padding-inline: 0;
+  }
+
+  /* Footer */
+  .footer {
+    padding-block: var(--spacing-1400);
+  }
+
+  .footer-main {
+    max-width: 70rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .footer-main > * {
+    max-width: 30%;
+  }
+
+  .footer-main .section-text{
+    margin-inline-start: var(--spacing-500);
+  }
+
+  .footer-main .btn {
+    align-self: start;
   }
 }
