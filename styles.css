@@ -286,10 +286,6 @@ body {
     padding-block-start: 0;
   }
 
-
-
-
-  /* Finish widths of hero images to match the design */
   .hero-img-left {
     max-width: 450px;
   }
