@@ -286,12 +286,9 @@ body {
     padding-block-start: 0;
   }
 
-  .hero-img-left {
-    max-width: 450px;
-  }
-
   .hero-img-right {
     display: block;
+    margin-block-start: var(--spacing-1400);
   }
 
   /* Showcase */
