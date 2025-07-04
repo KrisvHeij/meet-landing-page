@@ -286,6 +286,10 @@ body {
     padding-block-start: 0;
   }
 
+  .hero-content {
+    padding-inline: 0;
+  }
+
   .hero-img-right {
     display: block;
     margin-block-start: var(--spacing-1400);
